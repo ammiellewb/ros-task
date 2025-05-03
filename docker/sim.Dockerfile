@@ -1,7 +1,7 @@
 # ROS2 humble Base
 FROM ros:humble
 
-RUN apt-get update && apt-get upgrade -y
+RUN apt-get update && apt-get upgrade -y 
 
 # https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/docker-specialized.html
 ENV NVIDIA_VISIBLE_DEVICES=all
@@ -32,8 +32,15 @@ ENV WORKSPACE_PATH=/root/workspace
 
 COPY workspace/ $WORKSPACE_PATH/src/
 
-RUN rosdep update && cd $WORKSPACE_PATH && \
-    rosdep install --from-paths src -y --ignore-src
+# In your sim.Dockerfile, replace the failing rosdep line with: 
+# RUN rosdep update && cd $WORKSPACE_PATH && \
+# rosdep install --from-paths src -y --ignore-src
+RUN apt-get update && \
+    apt-get install -y software-properties-common && \
+    add-apt-repository universe && \
+    rosdep update && \
+    cd $WORKSPACE_PATH && \
+    rosdep install --from-paths src -y --ignore-src --skip-keys="libpoppler118"
 
 COPY scripts/setup/ /root/scripts/setup
 RUN /root/scripts/setup/workspace.sh

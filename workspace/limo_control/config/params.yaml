@@ -1,0 +1,7 @@
+goal_x: 5.0
+goal_y: 3.0
+goal_theta: 1.57  # pi/2 radians (90 degrees)
+max_linear_speed: 0.5  # m/s
+max_angular_speed: 1.0  # rad/s
+position_tolerance: 0.05  # 5cm
+orientation_tolerance: 0.1  # ~5.7 degrees

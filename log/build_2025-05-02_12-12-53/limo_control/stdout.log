@@ -1,0 +1,22 @@
+[ 50%] Building CXX object CMakeFiles/pose_controller.dir/src/pose_controller.cpp.o
+[100%] Linking CXX executable pose_controller
+[100%] Built target pose_controller
+-- Install configuration: ""
+-- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/lib/limo_control/pose_controller
+-- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/launch
+-- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/launch/controller.launch.py
+-- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/package_run_dependencies/limo_control
+-- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/parent_prefix_path/limo_control
+-- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/ament_prefix_path.sh
+-- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/ament_prefix_path.dsv
+-- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/path.sh
+-- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/path.dsv
+-- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.bash
+-- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.sh
+-- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.zsh
+-- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.dsv
+-- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.dsv
+-- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/packages/limo_control
+-- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/cmake/limo_controlConfig.cmake
+-- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/cmake/limo_controlConfig-version.cmake
+-- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.xml

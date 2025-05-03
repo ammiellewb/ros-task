@@ -1,0 +1,32 @@
+[0.021s] Invoking command in '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control': CMAKE_PREFIX_PATH=/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/.pixi/envs/default CONDA_PROMPT_MODIFIER=(base) PIXI_PROMPT=(ros-task) SHLVL=2 _=/usr/bin/env /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/.pixi/envs/default/bin/cmake --build /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control -- -j12 -l12
+[0.100s] Change Dir: '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control'
+[0.100s] 
+[0.100s] Run Build Command(s): /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/.pixi/envs/default/bin/cmake -E env VERBOSE=1 /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/make -f Makefile -j12 -l12
+[0.113s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/.pixi/envs/default/bin/cmake -S/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control -B/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control --check-build-system CMakeFiles/Makefile.cmake 0
+[0.160s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/.pixi/envs/default/bin/cmake -E cmake_progress_start /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control/CMakeFiles /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control//CMakeFiles/progress.marks
+[0.170s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/make  -f CMakeFiles/Makefile2 all
+[0.173s] make[1]: Entering directory '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control'
+[0.173s] make[1]: Nothing to be done for 'all'.
+[0.173s] make[1]: Leaving directory '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control'
+[0.173s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/.pixi/envs/default/bin/cmake -E cmake_progress_start /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control/CMakeFiles 0
+[0.185s] 
+[0.186s] Invoked command in '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control' returned '0': CMAKE_PREFIX_PATH=/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/.pixi/envs/default CONDA_PROMPT_MODIFIER=(base) PIXI_PROMPT=(ros-task) SHLVL=2 _=/usr/bin/env /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/.pixi/envs/default/bin/cmake --build /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control -- -j12 -l12
+[0.253s] Invoking command in '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control': CMAKE_PREFIX_PATH=/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/.pixi/envs/default CONDA_PROMPT_MODIFIER=(base) PIXI_PROMPT=(ros-task) SHLVL=2 _=/usr/bin/env /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/.pixi/envs/default/bin/cmake --install /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control
+[0.276s] -- Install configuration: ""
+[0.276s] -- Execute custom install script
+[0.276s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/package_run_dependencies/limo_control
+[0.276s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/parent_prefix_path/limo_control
+[0.276s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/ament_prefix_path.sh
+[0.276s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/ament_prefix_path.dsv
+[0.276s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/path.sh
+[0.276s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/path.dsv
+[0.276s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.bash
+[0.276s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.sh
+[0.276s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.zsh
+[0.276s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.dsv
+[0.276s] -- Symlinking: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.dsv
+[0.277s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/packages/limo_control
+[0.277s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/cmake/limo_controlConfig.cmake
+[0.278s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/cmake/limo_controlConfig-version.cmake
+[0.278s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.xml
+[0.279s] Invoked command in '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control' returned '0': CMAKE_PREFIX_PATH=/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/.pixi/envs/default CONDA_PROMPT_MODIFIER=(base) PIXI_PROMPT=(ros-task) SHLVL=2 _=/usr/bin/env /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/.pixi/envs/default/bin/cmake --install /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control

@@ -1,0 +1,15 @@
+/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/package_run_dependencies/limo_control
+/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/parent_prefix_path/limo_control
+/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/ament_prefix_path.sh
+/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/ament_prefix_path.dsv
+/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/path.sh
+/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/path.dsv
+/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.bash
+/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.sh
+/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.zsh
+/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.dsv
+/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.dsv
+/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/packages/limo_control
+/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/cmake/limo_controlConfig.cmake
+/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/cmake/limo_controlConfig-version.cmake
+/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.xml

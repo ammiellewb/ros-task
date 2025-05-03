@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000153] (-) JobUnselected: {'identifier': 'limo_simulation'}
+[0.000222] (limo_control) JobQueued: {'identifier': 'limo_control', 'dependencies': OrderedDict()}
+[0.000260] (limo_control) JobStarted: {'identifier': 'limo_control'}
+[0.020078] (limo_control) JobProgress: {'identifier': 'limo_control', 'progress': 'cmake'}
+[0.020797] (limo_control) Command: {'cmd': ['/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/cmake', '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control', '-DCMAKE_VERBOSE_MAKEFILE=ON', '-DCMAKE_INSTALL_PREFIX=/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control'], 'cwd': '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control', 'env': OrderedDict([('TERM_PROGRAM', 'Apple_Terminal'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/bash'), ('TMPDIR', '/var/folders/p9/1y2ry2053gdfywp_pry70rbm0000gn/T/'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '455.1'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('ROS_PYTHON_VERSION', '3'), ('TERM_SESSION_ID', '523AEC24-732A-437D-95B7-C3DC0AD91178'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/ammiellewambobecker/cl2/robostack/ros2_ws/src/ros-task/install'), ('AMENT_PREFIX_PATH', '/Users/ammiellewambobecker/cl2/robostack/ros2_ws/src/ros-task/install/limo_simulation:/Users/ammiellewambobecker/cl2/robostack/ros2_ws/src/ros-task/install/limo_control:/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble'), ('USER', 'ammiellewambobecker'), ('CONDA_EXE', '/opt/anaconda3/bin/conda'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.OIn2M9PoBv/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x0:0x52'), ('_CE_CONDA', ''), ('PATH', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin:/usr/local/opt/gazebo11/bin:/opt/anaconda3/bin:/opt/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/ammiellewambobecker/.pixi/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools'), ('GSETTINGS_SCHEMA_DIR', '/opt/anaconda3/share/glib-2.0/schemas'), ('LaunchInstanceID', '09B8F4B6-06DD-4CB6-B2A8-5FDA8A869DE0'), ('__CFBundleIdentifier', 'com.apple.Terminal'), ('CONDA_PREFIX', '/opt/anaconda3'), ('PWD', '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control'), ('COLCON', '1'), ('LANG', 'en_CA.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('_CE_M', ''), ('HOME', '/Users/ammiellewambobecker'), ('SHLVL', '2'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ammiellewambobecker'), ('CONDA_PYTHON_EXE', '/opt/anaconda3/bin/python'), ('PYTHONPATH', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib/python311/site-packages:/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib/python3.11/site-packages'), ('CONDA_DEFAULT_ENV', 'base'), ('CMAKE_PREFIX_PATH', '/Users/ammiellewambobecker/cl2/robostack/ros2_ws/src/ros-task/install/limo_simulation:/Users/ammiellewambobecker/cl2/robostack/ros2_ws/src/ros-task/install/limo_control:/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble'), ('ROS_LOCALHOST_ONLY', '0'), ('SECURITYSESSIONID', '186b1'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.062862] (limo_control) StderrLine: {'line': b'CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.063028] (limo_control) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.063084] (limo_control) StderrLine: {'line': b'  CMake.\n'}
+[0.063120] (limo_control) StderrLine: {'line': b'\n'}
+[0.063150] (limo_control) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.063180] (limo_control) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.063215] (limo_control) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.063243] (limo_control) StderrLine: {'line': b'\n'}
+[0.063270] (limo_control) StderrLine: {'line': b'\n'}
+[0.095531] (limo_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/ament_cmake/cmake)\n'}
+[0.100940] (-) TimerEvent: {}
+[0.201823] (-) TimerEvent: {}
+[0.259048] (limo_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rclcpp/cmake)\n'}
+[0.304976] (-) TimerEvent: {}
+[0.312438] (limo_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rosidl_generator_c/cmake)\n'}
+[0.315962] (limo_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rosidl_adapter/cmake)\n'}
+[0.325228] (limo_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.339426] (limo_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.356746] (limo_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.407298] (-) TimerEvent: {}
+[0.477750] (limo_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.480645] (limo_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.507396] (-) TimerEvent: {}
+[0.612547] (-) TimerEvent: {}
+[0.649943] (limo_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.705096] (limo_control) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/geometry_msgs/cmake)\n'}
+[0.713408] (-) TimerEvent: {}
+[0.743853] (limo_control) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/nav_msgs/cmake)\n'}
+[0.783226] (limo_control) StderrLine: {'line': b'CMake Error at CMakeLists.txt:26 (find_package):\n'}
+[0.783301] (limo_control) StderrLine: {'line': b'  By not providing "Findgz-transport12.cmake" in CMAKE_MODULE_PATH this\n'}
+[0.783341] (limo_control) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[0.783372] (limo_control) StderrLine: {'line': b'  "gz-transport12", but CMake did not find one.\n'}
+[0.783489] (limo_control) StderrLine: {'line': b'\n'}
+[0.783538] (limo_control) StderrLine: {'line': b'  Could not find a package configuration file provided by "gz-transport12"\n'}
+[0.783571] (limo_control) StderrLine: {'line': b'  with any of the following names:\n'}
+[0.783600] (limo_control) StderrLine: {'line': b'\n'}
+[0.783628] (limo_control) StderrLine: {'line': b'    gz-transport12Config.cmake\n'}
+[0.783657] (limo_control) StderrLine: {'line': b'    gz-transport12-config.cmake\n'}
+[0.783689] (limo_control) StderrLine: {'line': b'\n'}
+[0.783716] (limo_control) StderrLine: {'line': b'  Add the installation prefix of "gz-transport12" to CMAKE_PREFIX_PATH or set\n'}
+[0.783752] (limo_control) StderrLine: {'line': b'  "gz-transport12_DIR" to a directory containing one of the above files.  If\n'}
+[0.783779] (limo_control) StderrLine: {'line': b'  "gz-transport12" provides a separate development package or SDK, be sure it\n'}
+[0.783806] (limo_control) StderrLine: {'line': b'  has been installed.\n'}
+[0.783833] (limo_control) StderrLine: {'line': b'\n'}
+[0.783859] (limo_control) StderrLine: {'line': b'\n'}
+[0.783893] (limo_control) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.788211] (limo_control) CommandEnded: {'returncode': 1}
+[0.818469] (-) TimerEvent: {}
+[0.832899] (limo_control) JobEnded: {'identifier': 'limo_control', 'rc': 1}
+[0.833349] (-) EventReactorShutdown: {}

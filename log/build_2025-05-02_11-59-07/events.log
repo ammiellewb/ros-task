@@ -1,0 +1,349 @@
+[0.000000] (-) TimerEvent: {}
+[0.000135] (-) JobUnselected: {'identifier': 'limo_simulation'}
+[0.000176] (limo_control) JobQueued: {'identifier': 'limo_control', 'dependencies': OrderedDict()}
+[0.000271] (limo_control) JobStarted: {'identifier': 'limo_control'}
+[0.020226] (limo_control) JobProgress: {'identifier': 'limo_control', 'progress': 'cmake'}
+[0.020415] (limo_control) Command: {'cmd': ['/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/cmake', '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control', '-DCMAKE_INSTALL_PREFIX=/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control'], 'cwd': '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control', 'env': OrderedDict([('AS', 'arm64-apple-darwin20.0.0-as'), ('LDFLAGS', '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib -L/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib'), ('AR', 'arm64-apple-darwin20.0.0-ar'), ('OGRE2_RESOURCE_PATH', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib/OGRE-Next'), ('ac_cv_func_malloc_0_nonnull', 'yes'), ('TERM_PROGRAM', 'Apple_Terminal'), ('GDAL_DRIVER_PATH', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib/gdalplugins'), ('ac_cv_func_realloc_0_nonnull', 'yes'), ('PROJ_DATA', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/proj'), ('GEM_HOME', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rubygems/'), ('PIXI_IN_SHELL', '1'), ('SHELL', '/bin/bash'), ('TERM', 'xterm-256color'), ('HOST', 'arm64-apple-darwin20.0.0'), ('OBJC', 'arm64-apple-darwin20.0.0-clang'), ('NM', 'arm64-apple-darwin20.0.0-nm'), ('TMPDIR', '/var/folders/p9/1y2ry2053gdfywp_pry70rbm0000gn/T/'), ('CPPFLAGS', '-D_FORTIFY_SOURCE=2 -isystem /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include'), ('CONDA_SHLVL', '1'), ('PAGESTUFF', 'arm64-apple-darwin20.0.0-pagestuff'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('TERM_PROGRAM_VERSION', '455.1'), ('LIPO', 'arm64-apple-darwin20.0.0-lipo'), ('GAZEBO_MODEL_PATH', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/gazebo-11/models:'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', '/opt/anaconda3/share/glib-2.0/schemas'), ('SIZE', 'arm64-apple-darwin20.0.0-size'), ('NMEDIT', 'arm64-apple-darwin20.0.0-nmedit'), ('SDKROOT', '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk'), ('PIXI_ENVIRONMENT_NAME', 'humble'), ('ROS_PYTHON_VERSION', '3'), ('TERM_SESSION_ID', '13614856-33FB-4AE8-AF06-8490FBB376C7'), ('ROS_VERSION', '2'), ('CXX_FOR_BUILD', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-clang++'), ('INSTALL_NAME_TOOL', 'arm64-apple-darwin20.0.0-install_name_tool'), ('AMENT_PREFIX_PATH', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble'), ('GFORTRAN', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-gfortran'), ('SEGEDIT', 'arm64-apple-darwin20.0.0-segedit'), ('USER', 'ammiellewambobecker'), ('SEG_HACK', 'arm64-apple-darwin20.0.0-seg_hack'), ('LD_LIBRARY_PATH', ':/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib/gazebo-11/plugins:'), ('LIBTOOL', 'arm64-apple-darwin20.0.0-libtool'), ('CLANGXX', 'arm64-apple-darwin20.0.0-clang++'), ('CONDA_EXE', '/opt/anaconda3/bin/conda'), ('CONDA_TOOLCHAIN_BUILD', 'arm64-apple-darwin20.0.0'), ('FC_FOR_BUILD', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-gfortran'), ('PIXI_EXE', '/Users/ammiellewambobecker/.pixi/bin/pixi'), ('OTOOL', 'arm64-apple-darwin20.0.0-otool'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.OIn2M9PoBv/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x0:0x52'), ('DEBUG_FORTRANFLAGS', '-march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -isystem /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include -march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments'), ('ROS_OS_OVERRIDE', 'conda:osx'), ('CXXFLAGS', '-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include'), ('PIXI_PROJECT_MANIFEST', '/Users/ammiellewambobecker/CL2/robostack/pixi.toml'), ('STRINGS', 'arm64-apple-darwin20.0.0-strings'), ('CONDA_TOOLCHAIN_HOST', 'arm64-apple-darwin20.0.0'), ('_CE_CONDA', ''), ('CPP', 'arm64-apple-darwin20.0.0-clang-cpp'), ('CHECKSYMS', 'arm64-apple-darwin20.0.0-checksyms'), ('PATH', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rubygems/bin:/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin:/usr/local/opt/gazebo11/bin:/opt/anaconda3/bin:/opt/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/ammiellewambobecker/.pixi/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools'), ('CPL_ZIP_ENCODING', 'UTF-8'), ('GAZEBO_RESOURCE_PATH', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/gazebo-11:'), ('GSETTINGS_SCHEMA_DIR', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/glib-2.0/schemas'), ('MESON_ARGS', '-Dbuildtype=release'), ('PROJ_NETWORK', 'ON'), ('LaunchInstanceID', '09B8F4B6-06DD-4CB6-B2A8-5FDA8A869DE0'), ('XML_CATALOG_FILES', 'file:///Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/etc/xml/catalog file:///etc/xml/catalog'), ('CONDA_PREFIX', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble'), ('__CFBundleIdentifier', 'com.apple.Terminal'), ('LD', 'arm64-apple-darwin20.0.0-ld'), ('BUILD', 'arm64-apple-darwin20.0.0'), ('DEBUG_CXXFLAGS', '-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -Og -g -Wall -Wextra -isystem /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include'), ('PIXI_PROJECT_NAME', 'robostack'), ('PWD', '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control'), ('F90', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-gfortran'), ('PIXI_PROMPT', '(robostack:humble)'), ('COLCON', '1'), ('STRIP', 'arm64-apple-darwin20.0.0-strip'), ('OGRE_RESOURCE_PATH', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib/OGRE'), ('CMAKE_ARGS', '-DCMAKE_AR=/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-ar -DCMAKE_CXX_COMPILER_AR=/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-ar -DCMAKE_C_COMPILER_AR=/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-ar -DCMAKE_RANLIB=/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-ranlib -DCMAKE_CXX_COMPILER_RANLIB=/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-ranlib -DCMAKE_C_COMPILER_RANLIB=/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-ranlib -DCMAKE_LINKER=/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-ld -DCMAKE_STRIP=/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-strip -DCMAKE_INSTALL_NAME_TOOL=/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-install_name_tool -DCMAKE_LIBTOOL=/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-libtool -DCMAKE_BUILD_TYPE=Release -DCMAKE_OSX_SYSROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk'), ('LANG', 'en_CA.UTF-8'), ('F95', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-gfortran'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('XPC_FLAGS', '0x0'), ('DEBUG_FFLAGS', '-march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -isystem /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include -march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments'), ('F77', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-gfortran'), ('REDO_PREBINDING', 'arm64-apple-darwin20.0.0-redo_prebinding'), ('GDAL_DATA', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/gdal'), ('_CE_M', ''), ('XPC_SERVICE_NAME', '0'), ('CXX', 'arm64-apple-darwin20.0.0-clang++'), ('CC_FOR_BUILD', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-clang'), ('PIXI_ENVIRONMENT_PLATFORMS', 'osx-arm64,linux-64,osx-64,linux-aarch64,win-64'), ('CLANG', 'arm64-apple-darwin20.0.0-clang'), ('SHLVL', '3'), ('HOME', '/Users/ammiellewambobecker'), ('PIXI_PROJECT_ROOT', '/Users/ammiellewambobecker/CL2/robostack'), ('ROS_DISTRO', 'humble'), ('FORTRANFLAGS', '-march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -isystem /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include'), ('CFLAGS', '-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include'), ('FC', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-gfortran'), ('_CONDA_PYTHON_SYSCONFIGDATA_NAME', '_sysconfigdata_arm64_apple_darwin20_0_0'), ('GAZEBO_PLUGIN_PATH', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib/gazebo-11/plugins:'), ('CONDA_PYTHON_EXE', '/opt/anaconda3/bin/python'), ('LOGNAME', 'ammiellewambobecker'), ('PYTHONPATH', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib/python311/site-packages:/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib/python3.11/site-packages'), ('build_alias', 'arm64-apple-darwin20.0.0'), ('CONDA_DEFAULT_ENV', 'robostack:humble'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PIXI_PROJECT_VERSION', '0.1.0'), ('DEBUG_CFLAGS', '-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -Og -g -Wall -Wextra -isystem /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include'), ('RANLIB', 'arm64-apple-darwin20.0.0-ranlib'), ('CC', 'arm64-apple-darwin20.0.0-clang'), ('CMAKE_PREFIX_PATH', ':/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble'), ('SEG_ADDR_TABLE', 'arm64-apple-darwin20.0.0-seg_addr_table'), ('host_alias', 'arm64-apple-darwin20.0.0'), ('ROS_LOCALHOST_ONLY', '0'), ('LDFLAGS_LD', '-headerpad_max_install_names -dead_strip_dylibs -rpath /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib -L/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib'), ('SECURITYSESSIONID', '186b1'), ('CPP_FOR_BUILD', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-clang-cpp'), ('ROS_ETC_DIR', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/etc/ros'), ('FFLAGS', '-march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -isystem /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include'), ('OBJC_FOR_BUILD', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-clang'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.101127] (-) TimerEvent: {}
+[0.181068] (limo_control) StderrLine: {'line': b'CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.181253] (limo_control) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.181294] (limo_control) StderrLine: {'line': b'  CMake.\n'}
+[0.181329] (limo_control) StderrLine: {'line': b'\n'}
+[0.181358] (limo_control) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.181387] (limo_control) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.181420] (limo_control) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.181447] (limo_control) StderrLine: {'line': b'\n'}
+[0.181474] (limo_control) StderrLine: {'line': b'\n'}
+[0.205299] (-) TimerEvent: {}
+[0.309868] (-) TimerEvent: {}
+[0.413788] (-) TimerEvent: {}
+[0.518957] (-) TimerEvent: {}
+[0.620633] (-) TimerEvent: {}
+[0.725788] (-) TimerEvent: {}
+[0.819649] (limo_control) StdoutLine: {'line': b'-- The C compiler identification is Clang 18.1.8\n'}
+[0.825904] (-) TimerEvent: {}
+[0.931078] (-) TimerEvent: {}
+[1.036229] (-) TimerEvent: {}
+[1.136456] (-) TimerEvent: {}
+[1.241614] (-) TimerEvent: {}
+[1.346529] (-) TimerEvent: {}
+[1.451670] (-) TimerEvent: {}
+[1.554454] (-) TimerEvent: {}
+[1.659588] (-) TimerEvent: {}
+[1.764719] (-) TimerEvent: {}
+[1.865925] (-) TimerEvent: {}
+[1.967652] (-) TimerEvent: {}
+[2.072779] (-) TimerEvent: {}
+[2.152145] (limo_control) StdoutLine: {'line': b'-- The CXX compiler identification is Clang 18.1.8\n'}
+[2.163701] (limo_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.175039] (-) TimerEvent: {}
+[2.276691] (-) TimerEvent: {}
+[2.357359] (limo_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.362645] (limo_control) StdoutLine: {'line': b'-- Check for working C compiler: /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-clang - skipped\n'}
+[2.363004] (limo_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.363468] (limo_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.367917] (limo_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.378881] (-) TimerEvent: {}
+[2.479729] (-) TimerEvent: {}
+[2.505953] (limo_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.510989] (limo_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-clang++ - skipped\n'}
+[2.511187] (limo_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.511571] (limo_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.531791] (limo_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/ament_cmake/cmake)\n'}
+[2.582586] (-) TimerEvent: {}
+[2.632171] (limo_control) StdoutLine: {'line': b'-- Found Python3: /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/python3 (found version "3.11.11") found components: Interpreter\n'}
+[2.687511] (-) TimerEvent: {}
+[2.792628] (-) TimerEvent: {}
+[2.811711] (limo_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rclcpp/cmake)\n'}
+[2.897666] (-) TimerEvent: {}
+[2.952951] (limo_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rosidl_generator_c/cmake)\n'}
+[2.973544] (limo_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rosidl_adapter/cmake)\n'}
+[2.999423] (limo_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.999500] (-) TimerEvent: {}
+[3.030445] (limo_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.069867] (limo_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.104537] (-) TimerEvent: {}
+[3.209657] (-) TimerEvent: {}
+[3.309081] (limo_control) StdoutLine: {'line': b"-- Checking for module 'yaml-0.1'\n"}
+[3.309797] (-) TimerEvent: {}
+[3.413466] (limo_control) StdoutLine: {'line': b'--   Found yaml-0.1, version 0.2.5\n'}
+[3.413595] (-) TimerEvent: {}
+[3.518686] (-) TimerEvent: {}
+[3.623816] (-) TimerEvent: {}
+[3.701437] (limo_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.711456] (limo_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.726901] (-) TimerEvent: {}
+[3.832011] (-) TimerEvent: {}
+[3.936233] (-) TimerEvent: {}
+[4.041372] (-) TimerEvent: {}
+[4.146505] (-) TimerEvent: {}
+[4.251622] (-) TimerEvent: {}
+[4.356724] (-) TimerEvent: {}
+[4.461812] (-) TimerEvent: {}
+[4.566919] (-) TimerEvent: {}
+[4.672003] (-) TimerEvent: {}
+[4.777095] (-) TimerEvent: {}
+[4.806997] (limo_control) StdoutLine: {'line': b'-- Found OpenSSL: /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib/libcrypto.dylib (found version "3.4.1")\n'}
+[4.878370] (-) TimerEvent: {}
+[4.901334] (limo_control) StdoutLine: {'line': b'-- Found FastRTPS: /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include\n'}
+[4.956985] (limo_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.980797] (-) TimerEvent: {}
+[4.980891] (limo_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.082775] (-) TimerEvent: {}
+[5.141198] (limo_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.141790] (limo_control) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[5.187792] (-) TimerEvent: {}
+[5.216138] (limo_control) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/geometry_msgs/cmake)\n'}
+[5.271119] (limo_control) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/nav_msgs/cmake)\n'}
+[5.291949] (-) TimerEvent: {}
+[5.355779] (limo_control) StdoutLine: {'line': b'-- Configuring done (5.2s)\n'}
+[5.396985] (-) TimerEvent: {}
+[5.419527] (limo_control) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.420076] (limo_control) StdoutLine: {'line': b'-- Build files have been written to: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control\n'}
+[5.424089] (limo_control) CommandEnded: {'returncode': 0}
+[5.424705] (limo_control) JobProgress: {'identifier': 'limo_control', 'progress': 'build'}
+[5.425226] (limo_control) Command: {'cmd': ['/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/cmake', '--build', '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control', '--', '-j12', '-l12'], 'cwd': '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control', 'env': OrderedDict([('AS', 'arm64-apple-darwin20.0.0-as'), ('LDFLAGS', '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib -L/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib'), ('AR', 'arm64-apple-darwin20.0.0-ar'), ('OGRE2_RESOURCE_PATH', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib/OGRE-Next'), ('ac_cv_func_malloc_0_nonnull', 'yes'), ('TERM_PROGRAM', 'Apple_Terminal'), ('GDAL_DRIVER_PATH', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib/gdalplugins'), ('ac_cv_func_realloc_0_nonnull', 'yes'), ('PROJ_DATA', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/proj'), ('GEM_HOME', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rubygems/'), ('PIXI_IN_SHELL', '1'), ('SHELL', '/bin/bash'), ('TERM', 'xterm-256color'), ('HOST', 'arm64-apple-darwin20.0.0'), ('OBJC', 'arm64-apple-darwin20.0.0-clang'), ('NM', 'arm64-apple-darwin20.0.0-nm'), ('TMPDIR', '/var/folders/p9/1y2ry2053gdfywp_pry70rbm0000gn/T/'), ('CPPFLAGS', '-D_FORTIFY_SOURCE=2 -isystem /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include'), ('CONDA_SHLVL', '1'), ('PAGESTUFF', 'arm64-apple-darwin20.0.0-pagestuff'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('TERM_PROGRAM_VERSION', '455.1'), ('LIPO', 'arm64-apple-darwin20.0.0-lipo'), ('GAZEBO_MODEL_PATH', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/gazebo-11/models:'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', '/opt/anaconda3/share/glib-2.0/schemas'), ('SIZE', 'arm64-apple-darwin20.0.0-size'), ('NMEDIT', 'arm64-apple-darwin20.0.0-nmedit'), ('SDKROOT', '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk'), ('PIXI_ENVIRONMENT_NAME', 'humble'), ('ROS_PYTHON_VERSION', '3'), ('TERM_SESSION_ID', '13614856-33FB-4AE8-AF06-8490FBB376C7'), ('ROS_VERSION', '2'), ('CXX_FOR_BUILD', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-clang++'), ('INSTALL_NAME_TOOL', 'arm64-apple-darwin20.0.0-install_name_tool'), ('AMENT_PREFIX_PATH', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble'), ('GFORTRAN', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-gfortran'), ('SEGEDIT', 'arm64-apple-darwin20.0.0-segedit'), ('USER', 'ammiellewambobecker'), ('SEG_HACK', 'arm64-apple-darwin20.0.0-seg_hack'), ('LD_LIBRARY_PATH', ':/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib/gazebo-11/plugins:'), ('LIBTOOL', 'arm64-apple-darwin20.0.0-libtool'), ('CLANGXX', 'arm64-apple-darwin20.0.0-clang++'), ('CONDA_EXE', '/opt/anaconda3/bin/conda'), ('CONDA_TOOLCHAIN_BUILD', 'arm64-apple-darwin20.0.0'), ('FC_FOR_BUILD', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-gfortran'), ('PIXI_EXE', '/Users/ammiellewambobecker/.pixi/bin/pixi'), ('OTOOL', 'arm64-apple-darwin20.0.0-otool'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.OIn2M9PoBv/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x0:0x52'), ('DEBUG_FORTRANFLAGS', '-march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -isystem /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include -march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments'), ('ROS_OS_OVERRIDE', 'conda:osx'), ('CXXFLAGS', '-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include'), ('PIXI_PROJECT_MANIFEST', '/Users/ammiellewambobecker/CL2/robostack/pixi.toml'), ('STRINGS', 'arm64-apple-darwin20.0.0-strings'), ('CONDA_TOOLCHAIN_HOST', 'arm64-apple-darwin20.0.0'), ('_CE_CONDA', ''), ('CPP', 'arm64-apple-darwin20.0.0-clang-cpp'), ('CHECKSYMS', 'arm64-apple-darwin20.0.0-checksyms'), ('PATH', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rubygems/bin:/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin:/usr/local/opt/gazebo11/bin:/opt/anaconda3/bin:/opt/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/ammiellewambobecker/.pixi/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools'), ('CPL_ZIP_ENCODING', 'UTF-8'), ('GAZEBO_RESOURCE_PATH', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/gazebo-11:'), ('GSETTINGS_SCHEMA_DIR', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/glib-2.0/schemas'), ('MESON_ARGS', '-Dbuildtype=release'), ('PROJ_NETWORK', 'ON'), ('LaunchInstanceID', '09B8F4B6-06DD-4CB6-B2A8-5FDA8A869DE0'), ('XML_CATALOG_FILES', 'file:///Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/etc/xml/catalog file:///etc/xml/catalog'), ('CONDA_PREFIX', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble'), ('__CFBundleIdentifier', 'com.apple.Terminal'), ('LD', 'arm64-apple-darwin20.0.0-ld'), ('BUILD', 'arm64-apple-darwin20.0.0'), ('DEBUG_CXXFLAGS', '-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -Og -g -Wall -Wextra -isystem /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include'), ('PIXI_PROJECT_NAME', 'robostack'), ('PWD', '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control'), ('F90', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-gfortran'), ('PIXI_PROMPT', '(robostack:humble)'), ('COLCON', '1'), ('STRIP', 'arm64-apple-darwin20.0.0-strip'), ('OGRE_RESOURCE_PATH', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib/OGRE'), ('CMAKE_ARGS', '-DCMAKE_AR=/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-ar -DCMAKE_CXX_COMPILER_AR=/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-ar -DCMAKE_C_COMPILER_AR=/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-ar -DCMAKE_RANLIB=/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-ranlib -DCMAKE_CXX_COMPILER_RANLIB=/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-ranlib -DCMAKE_C_COMPILER_RANLIB=/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-ranlib -DCMAKE_LINKER=/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-ld -DCMAKE_STRIP=/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-strip -DCMAKE_INSTALL_NAME_TOOL=/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-install_name_tool -DCMAKE_LIBTOOL=/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-libtool -DCMAKE_BUILD_TYPE=Release -DCMAKE_OSX_SYSROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk'), ('LANG', 'en_CA.UTF-8'), ('F95', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-gfortran'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('XPC_FLAGS', '0x0'), ('DEBUG_FFLAGS', '-march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -isystem /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include -march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments'), ('F77', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-gfortran'), ('REDO_PREBINDING', 'arm64-apple-darwin20.0.0-redo_prebinding'), ('GDAL_DATA', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/gdal'), ('_CE_M', ''), ('XPC_SERVICE_NAME', '0'), ('CXX', 'arm64-apple-darwin20.0.0-clang++'), ('CC_FOR_BUILD', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-clang'), ('PIXI_ENVIRONMENT_PLATFORMS', 'osx-arm64,linux-64,osx-64,linux-aarch64,win-64'), ('CLANG', 'arm64-apple-darwin20.0.0-clang'), ('SHLVL', '3'), ('HOME', '/Users/ammiellewambobecker'), ('PIXI_PROJECT_ROOT', '/Users/ammiellewambobecker/CL2/robostack'), ('ROS_DISTRO', 'humble'), ('FORTRANFLAGS', '-march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -isystem /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include'), ('CFLAGS', '-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include'), ('FC', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-gfortran'), ('_CONDA_PYTHON_SYSCONFIGDATA_NAME', '_sysconfigdata_arm64_apple_darwin20_0_0'), ('GAZEBO_PLUGIN_PATH', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib/gazebo-11/plugins:'), ('CONDA_PYTHON_EXE', '/opt/anaconda3/bin/python'), ('LOGNAME', 'ammiellewambobecker'), ('PYTHONPATH', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib/python311/site-packages:/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib/python3.11/site-packages'), ('build_alias', 'arm64-apple-darwin20.0.0'), ('CONDA_DEFAULT_ENV', 'robostack:humble'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PIXI_PROJECT_VERSION', '0.1.0'), ('DEBUG_CFLAGS', '-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -Og -g -Wall -Wextra -isystem /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include'), ('RANLIB', 'arm64-apple-darwin20.0.0-ranlib'), ('CC', 'arm64-apple-darwin20.0.0-clang'), ('CMAKE_PREFIX_PATH', ':/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble'), ('SEG_ADDR_TABLE', 'arm64-apple-darwin20.0.0-seg_addr_table'), ('host_alias', 'arm64-apple-darwin20.0.0'), ('ROS_LOCALHOST_ONLY', '0'), ('LDFLAGS_LD', '-headerpad_max_install_names -dead_strip_dylibs -rpath /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib -L/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib'), ('SECURITYSESSIONID', '186b1'), ('CPP_FOR_BUILD', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-clang-cpp'), ('ROS_ETC_DIR', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/etc/ros'), ('FFLAGS', '-march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -isystem /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include'), ('OBJC_FOR_BUILD', '/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-clang'), ('_', '/usr/bin/env')]), 'shell': False}
+[5.499286] (limo_control) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/pose_controller.dir/src/pose_controller.cpp.o\n'}
+[5.499462] (-) TimerEvent: {}
+[5.603980] (-) TimerEvent: {}
+[5.709122] (-) TimerEvent: {}
+[5.814266] (-) TimerEvent: {}
+[5.918008] (-) TimerEvent: {}
+[6.023038] (-) TimerEvent: {}
+[6.128214] (-) TimerEvent: {}
+[6.233357] (-) TimerEvent: {}
+[6.338490] (-) TimerEvent: {}
+[6.443626] (-) TimerEvent: {}
+[6.548104] (-) TimerEvent: {}
+[6.653264] (-) TimerEvent: {}
+[6.674229] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:80:30: error: no template named 'Odometry' in namespace 'nav_msgs'; did you mean 'nav_msgs::msg::Odometry_'?\n"}
+[6.674413] (limo_control) StderrLine: {'line': b'   80 |         rclcpp::Subscription<nav_msgs::Odometry>::SharedPtr odom_sub_;\n'}
+[6.674457] (limo_control) StderrLine: {'line': b'      |                              ^~~~~~~~~~~~~~~~~~\n'}
+[6.674586] (limo_control) StderrLine: {'line': b'      |                              nav_msgs::msg::Odometry_\n'}
+[6.674623] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:40:8: note: 'nav_msgs::msg::Odometry_' declared here\n"}
+[6.674657] (limo_control) StderrLine: {'line': b'   40 | struct Odometry_\n'}
+[6.674683] (limo_control) StderrLine: {'line': b'      |        ^\n'}
+[6.674709] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:80:40: error: use of class template 'nav_msgs::Odometry_' requires template arguments\n"}
+[6.674737] (limo_control) StderrLine: {'line': b'   80 |         rclcpp::Subscription<nav_msgs::Odometry>::SharedPtr odom_sub_;\n'}
+[6.674781] (limo_control) StderrLine: {'line': b'      |                                        ^\n'}
+[6.674832] (limo_control) StderrLine: {'line': b'/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:40:8: note: template is declared here\n'}
+[6.674864] (limo_control) StderrLine: {'line': b'   39 | template<class ContainerAllocator>\n'}
+[6.674898] (limo_control) StderrLine: {'line': b'      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[6.674922] (limo_control) StderrLine: {'line': b'   40 | struct Odometry_\n'}
+[6.674946] (limo_control) StderrLine: {'line': b'      |        ^\n'}
+[6.674970] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:12:19: error: no matching member function for call to 'declare_parameter'\n"}
+[6.675002] (limo_control) StderrLine: {'line': b'   12 |             this->declare_parameter("target_x", 5.0);\n'}
+[6.675026] (limo_control) StderrLine: {'line': b'      |             ~~~~~~^~~~~~~~~~~~~~~~~\n'}
+[6.675112] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:195:7: note: candidate function template not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.675278] (limo_control) StderrLine: {'line': b'  195 | Node::declare_parameter(\n'}
+[6.675457] (limo_control) StderrLine: {'line': b'      |       ^\n'}
+[6.675613] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:366:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.675799] (limo_control) StderrLine: {'line': b'  366 |   declare_parameter(\n'}
+[6.675895] (limo_control) StderrLine: {'line': b'      |   ^\n'}
+[6.675939] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:391:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.675967] (limo_control) StderrLine: {'line': b'  391 |   declare_parameter(\n'}
+[6.675993] (limo_control) StderrLine: {'line': b'      |   ^\n'}
+[6.676018] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:215:7: note: candidate template ignored: couldn't infer template argument 'ParameterT'\n"}
+[6.676043] (limo_control) StderrLine: {'line': b'  215 | Node::declare_parameter(\n'}
+[6.676068] (limo_control) StderrLine: {'line': b'      |       ^\n'}
+[6.676092] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:13:19: error: no matching member function for call to 'declare_parameter'\n"}
+[6.676117] (limo_control) StderrLine: {'line': b'   13 |             this->declare_parameter("target_y", 3.0);\n'}
+[6.676141] (limo_control) StderrLine: {'line': b'      |             ~~~~~~^~~~~~~~~~~~~~~~~\n'}
+[6.676165] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:195:7: note: candidate function template not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.676195] (limo_control) StderrLine: {'line': b'  195 | Node::declare_parameter(\n'}
+[6.676220] (limo_control) StderrLine: {'line': b'      |       ^\n'}
+[6.676244] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:366:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.676269] (limo_control) StderrLine: {'line': b'  366 |   declare_parameter(\n'}
+[6.676292] (limo_control) StderrLine: {'line': b'      |   ^\n'}
+[6.676315] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:391:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.676339] (limo_control) StderrLine: {'line': b'  391 |   declare_parameter(\n'}
+[6.676362] (limo_control) StderrLine: {'line': b'      |   ^\n'}
+[6.676386] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:215:7: note: candidate template ignored: couldn't infer template argument 'ParameterT'\n"}
+[6.676417] (limo_control) StderrLine: {'line': b'  215 | Node::declare_parameter(\n'}
+[6.676440] (limo_control) StderrLine: {'line': b'      |       ^\n'}
+[6.676466] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:14:19: error: no matching member function for call to 'declare_parameter'\n"}
+[6.676489] (limo_control) StderrLine: {'line': b'   14 |             this->declare_parameter("target_theta", 1.57);\n'}
+[6.676511] (limo_control) StderrLine: {'line': b'      |             ~~~~~~^~~~~~~~~~~~~~~~~\n'}
+[6.676534] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:195:7: note: candidate function template not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.676556] (limo_control) StderrLine: {'line': b'  195 | Node::declare_parameter(\n'}
+[6.676578] (limo_control) StderrLine: {'line': b'      |       ^\n'}
+[6.676600] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:366:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.676623] (limo_control) StderrLine: {'line': b'  366 |   declare_parameter(\n'}
+[6.676644] (limo_control) StderrLine: {'line': b'      |   ^\n'}
+[6.676666] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:391:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.676688] (limo_control) StderrLine: {'line': b'  391 |   declare_parameter(\n'}
+[6.676710] (limo_control) StderrLine: {'line': b'      |   ^\n'}
+[6.676732] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:215:7: note: candidate template ignored: couldn't infer template argument 'ParameterT'\n"}
+[6.676758] (limo_control) StderrLine: {'line': b'  215 | Node::declare_parameter(\n'}
+[6.676780] (limo_control) StderrLine: {'line': b'      |       ^\n'}
+[6.676802] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:15:19: error: no matching member function for call to 'declare_parameter'\n"}
+[6.676825] (limo_control) StderrLine: {'line': b'   15 |             this->declare_parameter("max_linear_velocity", 0.5);\n'}
+[6.676847] (limo_control) StderrLine: {'line': b'      |             ~~~~~~^~~~~~~~~~~~~~~~~\n'}
+[6.676868] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:195:7: note: candidate function template not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.676890] (limo_control) StderrLine: {'line': b'  195 | Node::declare_parameter(\n'}
+[6.676912] (limo_control) StderrLine: {'line': b'      |       ^\n'}
+[6.676934] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:366:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.676956] (limo_control) StderrLine: {'line': b'  366 |   declare_parameter(\n'}
+[6.676978] (limo_control) StderrLine: {'line': b'      |   ^\n'}
+[6.677000] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:391:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.677023] (limo_control) StderrLine: {'line': b'  391 |   declare_parameter(\n'}
+[6.677045] (limo_control) StderrLine: {'line': b'      |   ^\n'}
+[6.677066] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:215:7: note: candidate template ignored: couldn't infer template argument 'ParameterT'\n"}
+[6.677092] (limo_control) StderrLine: {'line': b'  215 | Node::declare_parameter(\n'}
+[6.677114] (limo_control) StderrLine: {'line': b'      |       ^\n'}
+[6.677136] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:16:19: error: no matching member function for call to 'declare_parameter'\n"}
+[6.677158] (limo_control) StderrLine: {'line': b'   16 |             this->declare_parameter("max_angular_velocity", 1.0);\n'}
+[6.677184] (limo_control) StderrLine: {'line': b'      |             ~~~~~~^~~~~~~~~~~~~~~~~\n'}
+[6.677206] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:195:7: note: candidate function template not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.677228] (limo_control) StderrLine: {'line': b'  195 | Node::declare_parameter(\n'}
+[6.677250] (limo_control) StderrLine: {'line': b'      |       ^\n'}
+[6.677272] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:366:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.677294] (limo_control) StderrLine: {'line': b'  366 |   declare_parameter(\n'}
+[6.677316] (limo_control) StderrLine: {'line': b'      |   ^\n'}
+[6.677338] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:391:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.677360] (limo_control) StderrLine: {'line': b'  391 |   declare_parameter(\n'}
+[6.677382] (limo_control) StderrLine: {'line': b'      |   ^\n'}
+[6.677404] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:215:7: note: candidate template ignored: couldn't infer template argument 'ParameterT'\n"}
+[6.677426] (limo_control) StderrLine: {'line': b'  215 | Node::declare_parameter(\n'}
+[6.677448] (limo_control) StderrLine: {'line': b'      |       ^\n'}
+[6.677469] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:17:19: error: no matching member function for call to 'declare_parameter'\n"}
+[6.677495] (limo_control) StderrLine: {'line': b'   17 |             this->declare_parameter("position_tolerance", 0.05); // 5 cm\n'}
+[6.677517] (limo_control) StderrLine: {'line': b'      |             ~~~~~~^~~~~~~~~~~~~~~~~\n'}
+[6.677539] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:195:7: note: candidate function template not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.677561] (limo_control) StderrLine: {'line': b'  195 | Node::declare_parameter(\n'}
+[6.677583] (limo_control) StderrLine: {'line': b'      |       ^\n'}
+[6.677604] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:366:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.677627] (limo_control) StderrLine: {'line': b'  366 |   declare_parameter(\n'}
+[6.677648] (limo_control) StderrLine: {'line': b'      |   ^\n'}
+[6.677669] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:391:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.677700] (limo_control) StderrLine: {'line': b'  391 |   declare_parameter(\n'}
+[6.677722] (limo_control) StderrLine: {'line': b'      |   ^\n'}
+[6.677744] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:215:7: note: candidate template ignored: couldn't infer template argument 'ParameterT'\n"}
+[6.677770] (limo_control) StderrLine: {'line': b'  215 | Node::declare_parameter(\n'}
+[6.677795] (limo_control) StderrLine: {'line': b'      |       ^\n'}
+[6.677817] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:18:19: error: no matching member function for call to 'declare_parameter'\n"}
+[6.677839] (limo_control) StderrLine: {'line': b'   18 |             this->declare_parameter("orientation_tolerance", 0.1); // 0.1 rad\n'}
+[6.677861] (limo_control) StderrLine: {'line': b'      |             ~~~~~~^~~~~~~~~~~~~~~~~\n'}
+[6.677883] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:195:7: note: candidate function template not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.677906] (limo_control) StderrLine: {'line': b'  195 | Node::declare_parameter(\n'}
+[6.677927] (limo_control) StderrLine: {'line': b'      |       ^\n'}
+[6.677949] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:366:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.677971] (limo_control) StderrLine: {'line': b'  366 |   declare_parameter(\n'}
+[6.677993] (limo_control) StderrLine: {'line': b'      |   ^\n'}
+[6.678014] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:391:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.678036] (limo_control) StderrLine: {'line': b'  391 |   declare_parameter(\n'}
+[6.678058] (limo_control) StderrLine: {'line': b'      |   ^\n'}
+[6.678079] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:215:7: note: candidate template ignored: couldn't infer template argument 'ParameterT'\n"}
+[6.678101] (limo_control) StderrLine: {'line': b'  215 | Node::declare_parameter(\n'}
+[6.678128] (limo_control) StderrLine: {'line': b'      |       ^\n'}
+[6.678150] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:21:34: error: no matching member function for call to 'create_publisher'\n"}
+[6.678173] (limo_control) StderrLine: {'line': b'   21 |             cmd_vel_pub_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);\n'}
+[6.678195] (limo_control) StderrLine: {'line': b'      |                            ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[6.678217] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:73:7: note: candidate function template not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.678239] (limo_control) StderrLine: {'line': b'   73 | Node::create_publisher(\n'}
+[6.678261] (limo_control) StderrLine: {'line': b'      |       ^\n'}
+[6.697365] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:22:31: error: no matching member function for call to 'create_subscription'\n"}
+[6.697610] (limo_control) StderrLine: {'line': b'   22 |             odom_sub_ = this->create_subscription<nav_msgs::msg::Odometry>(\n'}
+[6.697646] (limo_control) StderrLine: {'line': b'      |                         ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[6.697672] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:92:7: note: candidate function template not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument\n"}
+[6.697712] (limo_control) StderrLine: {'line': b'   92 | Node::create_subscription(\n'}
+[6.697788] (limo_control) StderrLine: {'line': b'      |       ^\n'}
+[6.697881] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:30:25: error: cannot initialize object parameter of type 'const rclcpp::Node' with an expression of type 'PoseController'\n"}
+[6.698068] (limo_control) StderrLine: {'line': b'   30 |             RCLCPP_INFO(this->get_logger(), "Pose controller initialized");\n'}
+[6.698123] (limo_control) StderrLine: {'line': b'      |                         ^~~~\n'}
+[6.698149] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/logging.hpp:531:90: note: expanded from macro 'RCLCPP_INFO'\n"}
+[6.698174] (limo_control) StderrLine: {'line': b'  531 |       ::std::is_same<typename std::remove_cv_t<typename std::remove_reference_t<decltype(logger)>>, \\\n'}
+[6.698197] (limo_control) StderrLine: {'line': b'      |                                                                                          ^~~~~~\n'}
+[6.698219] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:30:25: error: cannot initialize object parameter of type 'const rclcpp::Node' with an expression of type 'PoseController'\n"}
+[6.698242] (limo_control) StderrLine: {'line': b'   30 |             RCLCPP_INFO(this->get_logger(), "Pose controller initialized");\n'}
+[6.698265] (limo_control) StderrLine: {'line': b'      |                         ^~~~\n'}
+[6.698288] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/logging.hpp:536:8: note: expanded from macro 'RCLCPP_INFO'\n"}
+[6.698310] (limo_control) StderrLine: {'line': b'  536 |       (logger).get_name(), \\\n'}
+[6.698332] (limo_control) StderrLine: {'line': b'      |        ^~~~~~\n'}
+[6.698353] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rcutils/rcutils/logging_macros.h:509:63: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'\n"}
+[6.698375] (limo_control) StderrLine: {'line': b'  509 |     RCUTILS_LOG_CONDITION_EMPTY, RCUTILS_LOG_CONDITION_EMPTY, name, \\\n'}
+[6.698405] (limo_control) StderrLine: {'line': b'      |                                                               ^~~~\n'}
+[6.698427] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rcutils/rcutils/logging_macros.h:77:47: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'\n"}
+[6.698449] (limo_control) StderrLine: {'line': b'   77 |     if (rcutils_logging_logger_is_enabled_for(name, severity)) { \\\n'}
+[6.698471] (limo_control) StderrLine: {'line': b'      |                                               ^~~~\n'}
+[6.698493] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:30:25: error: cannot initialize object parameter of type 'const rclcpp::Node' with an expression of type 'PoseController'\n"}
+[6.698516] (limo_control) StderrLine: {'line': b'   30 |             RCLCPP_INFO(this->get_logger(), "Pose controller initialized");\n'}
+[6.698538] (limo_control) StderrLine: {'line': b'      |                         ^~~~\n'}
+[6.698559] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/logging.hpp:536:8: note: expanded from macro 'RCLCPP_INFO'\n"}
+[6.698581] (limo_control) StderrLine: {'line': b'  536 |       (logger).get_name(), \\\n'}
+[6.698603] (limo_control) StderrLine: {'line': b'      |        ^~~~~~\n'}
+[6.698658] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rcutils/rcutils/logging_macros.h:509:63: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'\n"}
+[6.698796] (limo_control) StderrLine: {'line': b'  509 |     RCUTILS_LOG_CONDITION_EMPTY, RCUTILS_LOG_CONDITION_EMPTY, name, \\\n'}
+[6.698855] (limo_control) StderrLine: {'line': b'      |                                                               ^~~~\n'}
+[6.699036] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rcutils/rcutils/logging_macros.h:79:58: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'\n"}
+[6.699146] (limo_control) StderrLine: {'line': b'   79 |       rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \\\n'}
+[6.699329] (limo_control) StderrLine: {'line': b'      |                                                          ^~~~\n'}
+[6.699455] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:41:32: error: no matching member function for call to 'get_parameter'\n"}
+[6.699508] (limo_control) StderrLine: {'line': b'   41 |             double t_x = this->get_parameter("target_x").as_double();\n'}
+[6.699572] (limo_control) StderrLine: {'line': b'      |                          ~~~~~~^~~~~~~~~~~~~\n'}
+[6.699616] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:647:3: note: candidate function not viable: no known conversion from 'PoseController' to 'const rclcpp::Node' for object argument\n"}
+[6.699655] (limo_control) StderrLine: {'line': b'  647 |   get_parameter(const std::string & name) const;\n'}
+[6.699679] (limo_control) StderrLine: {'line': b'      |   ^\n'}
+[6.699702] (limo_control) StderrLine: {'line': b'/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:666:3: note: candidate function not viable: requires 2 arguments, but 1 was provided\n'}
+[6.699725] (limo_control) StderrLine: {'line': b'  666 |   get_parameter(const std::string & name, rclcpp::Parameter & parameter) const;\n'}
+[6.699747] (limo_control) StderrLine: {'line': b'      |   ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[6.699769] (limo_control) StderrLine: {'line': b'/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:286:7: note: candidate function template not viable: requires 2 arguments, but 1 was provided\n'}
+[6.699792] (limo_control) StderrLine: {'line': b'  286 | Node::get_parameter(const std::string & name, ParameterT & parameter) const\n'}
+[6.699814] (limo_control) StderrLine: {'line': b'      |       ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[6.699842] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:42:32: error: no matching member function for call to 'get_parameter'\n"}
+[6.699865] (limo_control) StderrLine: {'line': b'   42 |             double t_y = this->get_parameter("target_y").as_double();\n'}
+[6.699890] (limo_control) StderrLine: {'line': b'      |                          ~~~~~~^~~~~~~~~~~~~\n'}
+[6.699914] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:647:3: note: candidate function not viable: no known conversion from 'PoseController' to 'const rclcpp::Node' for object argument\n"}
+[6.699937] (limo_control) StderrLine: {'line': b'  647 |   get_parameter(const std::string & name) const;\n'}
+[6.699960] (limo_control) StderrLine: {'line': b'      |   ^\n'}
+[6.699983] (limo_control) StderrLine: {'line': b'/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:666:3: note: candidate function not viable: requires 2 arguments, but 1 was provided\n'}
+[6.700006] (limo_control) StderrLine: {'line': b'  666 |   get_parameter(const std::string & name, rclcpp::Parameter & parameter) const;\n'}
+[6.700029] (limo_control) StderrLine: {'line': b'      |   ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[6.700056] (limo_control) StderrLine: {'line': b'/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:286:7: note: candidate function template not viable: requires 2 arguments, but 1 was provided\n'}
+[6.700153] (limo_control) StderrLine: {'line': b'  286 | Node::get_parameter(const std::string & name, ParameterT & parameter) const\n'}
+[6.700266] (limo_control) StderrLine: {'line': b'      |       ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[6.700310] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:43:36: error: no matching member function for call to 'get_parameter'\n"}
+[6.700339] (limo_control) StderrLine: {'line': b'   43 |             double t_theta = this->get_parameter("target_theta").as_double();\n'}
+[6.700364] (limo_control) StderrLine: {'line': b'      |                              ~~~~~~^~~~~~~~~~~~~\n'}
+[6.700389] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:647:3: note: candidate function not viable: no known conversion from 'PoseController' to 'const rclcpp::Node' for object argument\n"}
+[6.700414] (limo_control) StderrLine: {'line': b'  647 |   get_parameter(const std::string & name) const;\n'}
+[6.700438] (limo_control) StderrLine: {'line': b'      |   ^\n'}
+[6.700467] (limo_control) StderrLine: {'line': b'/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:666:3: note: candidate function not viable: requires 2 arguments, but 1 was provided\n'}
+[6.700491] (limo_control) StderrLine: {'line': b'  666 |   get_parameter(const std::string & name, rclcpp::Parameter & parameter) const;\n'}
+[6.700515] (limo_control) StderrLine: {'line': b'      |   ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[6.700538] (limo_control) StderrLine: {'line': b'/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:286:7: note: candidate function template not viable: requires 2 arguments, but 1 was provided\n'}
+[6.700562] (limo_control) StderrLine: {'line': b'  286 | Node::get_parameter(const std::string & name, ParameterT & parameter) const\n'}
+[6.700586] (limo_control) StderrLine: {'line': b'      |       ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[6.700609] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:44:40: error: no matching member function for call to 'get_parameter'\n"}
+[6.700633] (limo_control) StderrLine: {'line': b'   44 |             double max_lin_vel = this->get_parameter("max_linear_velocity").as_double();\n'}
+[6.700657] (limo_control) StderrLine: {'line': b'      |                                  ~~~~~~^~~~~~~~~~~~~\n'}
+[6.700681] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:647:3: note: candidate function not viable: no known conversion from 'PoseController' to 'const rclcpp::Node' for object argument\n"}
+[6.700706] (limo_control) StderrLine: {'line': b'  647 |   get_parameter(const std::string & name) const;\n'}
+[6.700730] (limo_control) StderrLine: {'line': b'      |   ^\n'}
+[6.700754] (limo_control) StderrLine: {'line': b'/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:666:3: note: candidate function not viable: requires 2 arguments, but 1 was provided\n'}
+[6.700777] (limo_control) StderrLine: {'line': b'  666 |   get_parameter(const std::string & name, rclcpp::Parameter & parameter) const;\n'}
+[6.700801] (limo_control) StderrLine: {'line': b'      |   ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[6.700826] (limo_control) StderrLine: {'line': b'/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:286:7: note: candidate function template not viable: requires 2 arguments, but 1 was provided\n'}
+[6.700855] (limo_control) StderrLine: {'line': b'  286 | Node::get_parameter(const std::string & name, ParameterT & parameter) const\n'}
+[6.700879] (limo_control) StderrLine: {'line': b'      |       ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[6.700903] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:45:40: error: no matching member function for call to 'get_parameter'\n"}
+[6.700932] (limo_control) StderrLine: {'line': b'   45 |             double max_ang_vel = this->get_parameter("max_angular_velocity").as_double();\n'}
+[6.700956] (limo_control) StderrLine: {'line': b'      |                                  ~~~~~~^~~~~~~~~~~~~\n'}
+[6.700980] (limo_control) StderrLine: {'line': b"/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:647:3: note: candidate function not viable: no known conversion from 'PoseController' to 'const rclcpp::Node' for object argument\n"}
+[6.701004] (limo_control) StderrLine: {'line': b'  647 |   get_parameter(const std::string & name) const;\n'}
+[6.701027] (limo_control) StderrLine: {'line': b'      |   ^\n'}
+[6.701050] (limo_control) StderrLine: {'line': b'/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:666:3: note: candidate function not viable: requires 2 arguments, but 1 was provided\n'}
+[6.701074] (limo_control) StderrLine: {'line': b'  666 |   get_parameter(const std::string & name, rclcpp::Parameter & parameter) const;\n'}
+[6.701097] (limo_control) StderrLine: {'line': b'      |   ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[6.701120] (limo_control) StderrLine: {'line': b'/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:286:7: note: candidate function template not viable: requires 2 arguments, but 1 was provided\n'}
+[6.701143] (limo_control) StderrLine: {'line': b'  286 | Node::get_parameter(const std::string & name, ParameterT & parameter) const\n'}
+[6.701167] (limo_control) StderrLine: {'line': b'      |       ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[6.701190] (limo_control) StderrLine: {'line': b'fatal error: too many errors emitted, stopping now [-ferror-limit=]\n'}
+[6.702738] (limo_control) StderrLine: {'line': b'20 errors generated.\n'}
+[6.709354] (limo_control) StderrLine: {'line': b'make[2]: *** [CMakeFiles/pose_controller.dir/build.make:79: CMakeFiles/pose_controller.dir/src/pose_controller.cpp.o] Error 1\n'}
+[6.709495] (limo_control) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/pose_controller.dir/all] Error 2\n'}
+[6.709674] (limo_control) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[6.711031] (limo_control) CommandEnded: {'returncode': 2}
+[6.758323] (-) TimerEvent: {}
+[6.779252] (limo_control) JobEnded: {'identifier': 'limo_control', 'rc': 2}
+[6.780387] (-) EventReactorShutdown: {}

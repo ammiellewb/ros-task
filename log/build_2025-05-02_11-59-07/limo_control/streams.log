@@ -1,0 +1,276 @@
+[0.022s] Invoking command in '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control': CONDA_PROMPT_MODIFIER=(base) PIXI_PROMPT=(robostack:humble) SHLVL=3 _=/usr/bin/env /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/cmake /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control -DCMAKE_INSTALL_PREFIX=/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control
+[0.181s] CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.181s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.181s]   CMake.
+[0.181s] 
+[0.181s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.181s]   to tell CMake that the project requires at least <min> but has been updated
+[0.181s]   to work with policies introduced by <max> or earlier.
+[0.181s] 
+[0.181s] 
+[0.819s] -- The C compiler identification is Clang 18.1.8
+[2.152s] -- The CXX compiler identification is Clang 18.1.8
+[2.163s] -- Detecting C compiler ABI info
+[2.357s] -- Detecting C compiler ABI info - done
+[2.362s] -- Check for working C compiler: /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-clang - skipped
+[2.363s] -- Detecting C compile features
+[2.363s] -- Detecting C compile features - done
+[2.368s] -- Detecting CXX compiler ABI info
+[2.506s] -- Detecting CXX compiler ABI info - done
+[2.511s] -- Check for working CXX compiler: /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/arm64-apple-darwin20.0.0-clang++ - skipped
+[2.511s] -- Detecting CXX compile features
+[2.511s] -- Detecting CXX compile features - done
+[2.532s] -- Found ament_cmake: 1.3.11 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/ament_cmake/cmake)
+[2.632s] -- Found Python3: /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/python3 (found version "3.11.11") found components: Interpreter
+[2.811s] -- Found rclcpp: 16.0.11 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rclcpp/cmake)
+[2.953s] -- Found rosidl_generator_c: 3.1.6 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rosidl_generator_c/cmake)
+[2.973s] -- Found rosidl_adapter: 3.1.6 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rosidl_adapter/cmake)
+[2.999s] -- Found rosidl_generator_cpp: 3.1.6 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rosidl_generator_cpp/cmake)
+[3.030s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.070s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.309s] -- Checking for module 'yaml-0.1'
+[3.413s] --   Found yaml-0.1, version 0.2.5
+[3.701s] -- Found rmw_implementation_cmake: 6.1.2 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rmw_implementation_cmake/cmake)
+[3.711s] -- Found rmw_fastrtps_cpp: 6.2.7 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/rmw_fastrtps_cpp/cmake)
+[4.807s] -- Found OpenSSL: /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/lib/libcrypto.dylib (found version "3.4.1")
+[4.901s] -- Found FastRTPS: /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include
+[4.957s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.981s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.141s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.142s] -- Found Threads: TRUE
+[5.216s] -- Found geometry_msgs: 4.2.4 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/geometry_msgs/cmake)
+[5.271s] -- Found nav_msgs: 4.2.4 (/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/nav_msgs/cmake)
+[5.356s] -- Configuring done (5.2s)
+[5.419s] -- Generating done (0.1s)
+[5.420s] -- Build files have been written to: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control
+[5.424s] Invoked command in '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control' returned '0': CONDA_PROMPT_MODIFIER=(base) PIXI_PROMPT=(robostack:humble) SHLVL=3 _=/usr/bin/env /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/cmake /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control -DCMAKE_INSTALL_PREFIX=/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control
+[5.426s] Invoking command in '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control': CONDA_PROMPT_MODIFIER=(base) PIXI_PROMPT=(robostack:humble) SHLVL=3 _=/usr/bin/env /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/cmake --build /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control -- -j12 -l12
+[5.499s] [ 50%] Building CXX object CMakeFiles/pose_controller.dir/src/pose_controller.cpp.o
+[6.674s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:80:30: error: no template named 'Odometry' in namespace 'nav_msgs'; did you mean 'nav_msgs::msg::Odometry_'?
+[6.674s]    80 |         rclcpp::Subscription<nav_msgs::Odometry>::SharedPtr odom_sub_;
+[6.674s]       |                              ^~~~~~~~~~~~~~~~~~
+[6.674s]       |                              nav_msgs::msg::Odometry_
+[6.674s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:40:8: note: 'nav_msgs::msg::Odometry_' declared here
+[6.674s]    40 | struct Odometry_
+[6.674s]       |        ^
+[6.674s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:80:40: error: use of class template 'nav_msgs::Odometry_' requires template arguments
+[6.674s]    80 |         rclcpp::Subscription<nav_msgs::Odometry>::SharedPtr odom_sub_;
+[6.674s]       |                                        ^
+[6.675s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:40:8: note: template is declared here
+[6.675s]    39 | template<class ContainerAllocator>
+[6.675s]       | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[6.675s]    40 | struct Odometry_
+[6.675s]       |        ^
+[6.675s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:12:19: error: no matching member function for call to 'declare_parameter'
+[6.675s]    12 |             this->declare_parameter("target_x", 5.0);
+[6.675s]       |             ~~~~~~^~~~~~~~~~~~~~~~~
+[6.675s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:195:7: note: candidate function template not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.675s]   195 | Node::declare_parameter(
+[6.675s]       |       ^
+[6.675s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:366:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.676s]   366 |   declare_parameter(
+[6.676s]       |   ^
+[6.676s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:391:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.676s]   391 |   declare_parameter(
+[6.676s]       |   ^
+[6.676s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:215:7: note: candidate template ignored: couldn't infer template argument 'ParameterT'
+[6.676s]   215 | Node::declare_parameter(
+[6.676s]       |       ^
+[6.676s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:13:19: error: no matching member function for call to 'declare_parameter'
+[6.676s]    13 |             this->declare_parameter("target_y", 3.0);
+[6.676s]       |             ~~~~~~^~~~~~~~~~~~~~~~~
+[6.676s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:195:7: note: candidate function template not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.676s]   195 | Node::declare_parameter(
+[6.676s]       |       ^
+[6.676s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:366:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.676s]   366 |   declare_parameter(
+[6.676s]       |   ^
+[6.676s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:391:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.676s]   391 |   declare_parameter(
+[6.676s]       |   ^
+[6.676s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:215:7: note: candidate template ignored: couldn't infer template argument 'ParameterT'
+[6.676s]   215 | Node::declare_parameter(
+[6.676s]       |       ^
+[6.676s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:14:19: error: no matching member function for call to 'declare_parameter'
+[6.676s]    14 |             this->declare_parameter("target_theta", 1.57);
+[6.676s]       |             ~~~~~~^~~~~~~~~~~~~~~~~
+[6.676s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:195:7: note: candidate function template not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.676s]   195 | Node::declare_parameter(
+[6.676s]       |       ^
+[6.676s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:366:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.676s]   366 |   declare_parameter(
+[6.676s]       |   ^
+[6.676s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:391:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.676s]   391 |   declare_parameter(
+[6.676s]       |   ^
+[6.676s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:215:7: note: candidate template ignored: couldn't infer template argument 'ParameterT'
+[6.676s]   215 | Node::declare_parameter(
+[6.676s]       |       ^
+[6.677s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:15:19: error: no matching member function for call to 'declare_parameter'
+[6.677s]    15 |             this->declare_parameter("max_linear_velocity", 0.5);
+[6.677s]       |             ~~~~~~^~~~~~~~~~~~~~~~~
+[6.677s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:195:7: note: candidate function template not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.677s]   195 | Node::declare_parameter(
+[6.677s]       |       ^
+[6.677s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:366:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.677s]   366 |   declare_parameter(
+[6.677s]       |   ^
+[6.677s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:391:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.677s]   391 |   declare_parameter(
+[6.677s]       |   ^
+[6.677s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:215:7: note: candidate template ignored: couldn't infer template argument 'ParameterT'
+[6.677s]   215 | Node::declare_parameter(
+[6.677s]       |       ^
+[6.677s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:16:19: error: no matching member function for call to 'declare_parameter'
+[6.677s]    16 |             this->declare_parameter("max_angular_velocity", 1.0);
+[6.677s]       |             ~~~~~~^~~~~~~~~~~~~~~~~
+[6.677s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:195:7: note: candidate function template not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.677s]   195 | Node::declare_parameter(
+[6.677s]       |       ^
+[6.677s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:366:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.677s]   366 |   declare_parameter(
+[6.677s]       |   ^
+[6.677s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:391:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.677s]   391 |   declare_parameter(
+[6.677s]       |   ^
+[6.677s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:215:7: note: candidate template ignored: couldn't infer template argument 'ParameterT'
+[6.677s]   215 | Node::declare_parameter(
+[6.677s]       |       ^
+[6.677s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:17:19: error: no matching member function for call to 'declare_parameter'
+[6.677s]    17 |             this->declare_parameter("position_tolerance", 0.05); // 5 cm
+[6.677s]       |             ~~~~~~^~~~~~~~~~~~~~~~~
+[6.677s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:195:7: note: candidate function template not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.677s]   195 | Node::declare_parameter(
+[6.677s]       |       ^
+[6.677s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:366:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.677s]   366 |   declare_parameter(
+[6.677s]       |   ^
+[6.677s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:391:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.677s]   391 |   declare_parameter(
+[6.677s]       |   ^
+[6.677s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:215:7: note: candidate template ignored: couldn't infer template argument 'ParameterT'
+[6.677s]   215 | Node::declare_parameter(
+[6.677s]       |       ^
+[6.678s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:18:19: error: no matching member function for call to 'declare_parameter'
+[6.678s]    18 |             this->declare_parameter("orientation_tolerance", 0.1); // 0.1 rad
+[6.678s]       |             ~~~~~~^~~~~~~~~~~~~~~~~
+[6.678s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:195:7: note: candidate function template not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.678s]   195 | Node::declare_parameter(
+[6.678s]       |       ^
+[6.678s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:366:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.678s]   366 |   declare_parameter(
+[6.678s]       |   ^
+[6.678s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:391:3: note: candidate function not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.678s]   391 |   declare_parameter(
+[6.678s]       |   ^
+[6.678s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:215:7: note: candidate template ignored: couldn't infer template argument 'ParameterT'
+[6.678s]   215 | Node::declare_parameter(
+[6.678s]       |       ^
+[6.678s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:21:34: error: no matching member function for call to 'create_publisher'
+[6.678s]    21 |             cmd_vel_pub_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
+[6.678s]       |                            ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[6.678s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:73:7: note: candidate function template not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.678s]    73 | Node::create_publisher(
+[6.678s]       |       ^
+[6.697s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:22:31: error: no matching member function for call to 'create_subscription'
+[6.697s]    22 |             odom_sub_ = this->create_subscription<nav_msgs::msg::Odometry>(
+[6.697s]       |                         ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[6.697s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:92:7: note: candidate function template not viable: no known conversion from 'PoseController' to 'rclcpp::Node' for object argument
+[6.697s]    92 | Node::create_subscription(
+[6.698s]       |       ^
+[6.698s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:30:25: error: cannot initialize object parameter of type 'const rclcpp::Node' with an expression of type 'PoseController'
+[6.698s]    30 |             RCLCPP_INFO(this->get_logger(), "Pose controller initialized");
+[6.698s]       |                         ^~~~
+[6.698s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/logging.hpp:531:90: note: expanded from macro 'RCLCPP_INFO'
+[6.698s]   531 |       ::std::is_same<typename std::remove_cv_t<typename std::remove_reference_t<decltype(logger)>>, \
+[6.698s]       |                                                                                          ^~~~~~
+[6.698s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:30:25: error: cannot initialize object parameter of type 'const rclcpp::Node' with an expression of type 'PoseController'
+[6.698s]    30 |             RCLCPP_INFO(this->get_logger(), "Pose controller initialized");
+[6.698s]       |                         ^~~~
+[6.698s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/logging.hpp:536:8: note: expanded from macro 'RCLCPP_INFO'
+[6.698s]   536 |       (logger).get_name(), \
+[6.698s]       |        ^~~~~~
+[6.698s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rcutils/rcutils/logging_macros.h:509:63: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'
+[6.698s]   509 |     RCUTILS_LOG_CONDITION_EMPTY, RCUTILS_LOG_CONDITION_EMPTY, name, \
+[6.698s]       |                                                               ^~~~
+[6.698s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rcutils/rcutils/logging_macros.h:77:47: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+[6.698s]    77 |     if (rcutils_logging_logger_is_enabled_for(name, severity)) { \
+[6.698s]       |                                               ^~~~
+[6.698s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:30:25: error: cannot initialize object parameter of type 'const rclcpp::Node' with an expression of type 'PoseController'
+[6.698s]    30 |             RCLCPP_INFO(this->get_logger(), "Pose controller initialized");
+[6.698s]       |                         ^~~~
+[6.698s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/logging.hpp:536:8: note: expanded from macro 'RCLCPP_INFO'
+[6.698s]   536 |       (logger).get_name(), \
+[6.698s]       |        ^~~~~~
+[6.698s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rcutils/rcutils/logging_macros.h:509:63: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'
+[6.699s]   509 |     RCUTILS_LOG_CONDITION_EMPTY, RCUTILS_LOG_CONDITION_EMPTY, name, \
+[6.699s]       |                                                               ^~~~
+[6.699s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rcutils/rcutils/logging_macros.h:79:58: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+[6.699s]    79 |       rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[6.699s]       |                                                          ^~~~
+[6.699s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:41:32: error: no matching member function for call to 'get_parameter'
+[6.699s]    41 |             double t_x = this->get_parameter("target_x").as_double();
+[6.699s]       |                          ~~~~~~^~~~~~~~~~~~~
+[6.699s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:647:3: note: candidate function not viable: no known conversion from 'PoseController' to 'const rclcpp::Node' for object argument
+[6.699s]   647 |   get_parameter(const std::string & name) const;
+[6.699s]       |   ^
+[6.699s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:666:3: note: candidate function not viable: requires 2 arguments, but 1 was provided
+[6.699s]   666 |   get_parameter(const std::string & name, rclcpp::Parameter & parameter) const;
+[6.699s]       |   ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[6.699s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:286:7: note: candidate function template not viable: requires 2 arguments, but 1 was provided
+[6.699s]   286 | Node::get_parameter(const std::string & name, ParameterT & parameter) const
+[6.700s]       |       ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[6.700s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:42:32: error: no matching member function for call to 'get_parameter'
+[6.700s]    42 |             double t_y = this->get_parameter("target_y").as_double();
+[6.700s]       |                          ~~~~~~^~~~~~~~~~~~~
+[6.700s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:647:3: note: candidate function not viable: no known conversion from 'PoseController' to 'const rclcpp::Node' for object argument
+[6.700s]   647 |   get_parameter(const std::string & name) const;
+[6.700s]       |   ^
+[6.700s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:666:3: note: candidate function not viable: requires 2 arguments, but 1 was provided
+[6.700s]   666 |   get_parameter(const std::string & name, rclcpp::Parameter & parameter) const;
+[6.700s]       |   ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[6.700s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:286:7: note: candidate function template not viable: requires 2 arguments, but 1 was provided
+[6.700s]   286 | Node::get_parameter(const std::string & name, ParameterT & parameter) const
+[6.700s]       |       ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[6.700s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:43:36: error: no matching member function for call to 'get_parameter'
+[6.700s]    43 |             double t_theta = this->get_parameter("target_theta").as_double();
+[6.700s]       |                              ~~~~~~^~~~~~~~~~~~~
+[6.700s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:647:3: note: candidate function not viable: no known conversion from 'PoseController' to 'const rclcpp::Node' for object argument
+[6.700s]   647 |   get_parameter(const std::string & name) const;
+[6.700s]       |   ^
+[6.700s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:666:3: note: candidate function not viable: requires 2 arguments, but 1 was provided
+[6.700s]   666 |   get_parameter(const std::string & name, rclcpp::Parameter & parameter) const;
+[6.700s]       |   ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[6.700s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:286:7: note: candidate function template not viable: requires 2 arguments, but 1 was provided
+[6.700s]   286 | Node::get_parameter(const std::string & name, ParameterT & parameter) const
+[6.700s]       |       ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[6.700s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:44:40: error: no matching member function for call to 'get_parameter'
+[6.700s]    44 |             double max_lin_vel = this->get_parameter("max_linear_velocity").as_double();
+[6.700s]       |                                  ~~~~~~^~~~~~~~~~~~~
+[6.700s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:647:3: note: candidate function not viable: no known conversion from 'PoseController' to 'const rclcpp::Node' for object argument
+[6.700s]   647 |   get_parameter(const std::string & name) const;
+[6.700s]       |   ^
+[6.700s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:666:3: note: candidate function not viable: requires 2 arguments, but 1 was provided
+[6.700s]   666 |   get_parameter(const std::string & name, rclcpp::Parameter & parameter) const;
+[6.701s]       |   ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[6.701s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:286:7: note: candidate function template not viable: requires 2 arguments, but 1 was provided
+[6.701s]   286 | Node::get_parameter(const std::string & name, ParameterT & parameter) const
+[6.701s]       |       ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[6.701s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:45:40: error: no matching member function for call to 'get_parameter'
+[6.701s]    45 |             double max_ang_vel = this->get_parameter("max_angular_velocity").as_double();
+[6.701s]       |                                  ~~~~~~^~~~~~~~~~~~~
+[6.701s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:647:3: note: candidate function not viable: no known conversion from 'PoseController' to 'const rclcpp::Node' for object argument
+[6.701s]   647 |   get_parameter(const std::string & name) const;
+[6.701s]       |   ^
+[6.701s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node.hpp:666:3: note: candidate function not viable: requires 2 arguments, but 1 was provided
+[6.701s]   666 |   get_parameter(const std::string & name, rclcpp::Parameter & parameter) const;
+[6.701s]       |   ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[6.701s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:286:7: note: candidate function template not viable: requires 2 arguments, but 1 was provided
+[6.701s]   286 | Node::get_parameter(const std::string & name, ParameterT & parameter) const
+[6.701s]       |       ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[6.701s] fatal error: too many errors emitted, stopping now [-ferror-limit=]
+[6.702s] 20 errors generated.
+[6.709s] make[2]: *** [CMakeFiles/pose_controller.dir/build.make:79: CMakeFiles/pose_controller.dir/src/pose_controller.cpp.o] Error 1
+[6.709s] make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/pose_controller.dir/all] Error 2
+[6.709s] make: *** [Makefile:146: all] Error 2
+[6.711s] Invoked command in '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control' returned '2': CONDA_PROMPT_MODIFIER=(base) PIXI_PROMPT=(robostack:humble) SHLVL=3 _=/usr/bin/env /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/cmake --build /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control -- -j12 -l12

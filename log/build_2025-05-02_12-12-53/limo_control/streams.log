@@ -1,0 +1,59 @@
+[0.030s] Invoking command in '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control': CONDA_PROMPT_MODIFIER=(base) PIXI_PROMPT=(robostack:humble) SHLVL=3 _=/usr/bin/env /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/cmake --build /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control -- -j12 -l12
+[0.264s] [ 50%] Building CXX object CMakeFiles/pose_controller.dir/src/pose_controller.cpp.o
+[2.314s] In file included from /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:1:
+[2.315s] In file included from /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/rclcpp.hpp:155:
+[2.315s] In file included from /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/executors.hpp:21:
+[2.315s] In file included from /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25:
+[2.315s] In file included from /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/executor.hpp:37:
+[2.315s] In file included from /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/executor_options.hpp:20:
+[2.315s] In file included from /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18:
+[2.315s] In file included from /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25:
+[2.315s] In file included from /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/any_executable.hpp:20:
+[2.315s] In file included from /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/callback_group.hpp:29:
+[2.315s] In file included from /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/subscription_base.hpp:32:
+[2.315s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: warning: 'set_deprecated<nav_msgs::msg::Odometry_<std::allocator<void>>>' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations]
+[2.315s]   391 |       set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[2.315s]       |       ^
+[2.315s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:29: note: in instantiation of function template specialization 'rclcpp::AnySubscriptionCallback<nav_msgs::msg::Odometry_<std::allocator<void>>>::set<std::__bind<void (PoseController::*)(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void>>>), PoseController *, const std::placeholders::__ph<1> &>>' requested here
+[2.315s]    94 |   any_subscription_callback.set(std::forward<CallbackT>(callback));
+[2.315s]       |                             ^
+[2.315s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:26: note: in instantiation of function template specialization 'rclcpp::create_subscription_factory<nav_msgs::msg::Odometry_<std::allocator<void>>, std::__bind<void (PoseController::*)(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void>>>), PoseController *, const std::placeholders::__ph<1> &>, std::allocator<void>, rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void>>>, nav_msgs::msg::Odometry_<std::allocator<void>>>' requested here
+[2.315s]   122 |   auto factory = rclcpp::create_subscription_factory<MessageT>(
+[2.315s]       |                          ^
+[2.315s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/create_subscription.hpp:190:26: note: in instantiation of function template specialization 'rclcpp::detail::create_subscription<nav_msgs::msg::Odometry_<std::allocator<void>>, std::__bind<void (PoseController::*)(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void>>>), PoseController *, const std::placeholders::__ph<1> &>, std::allocator<void>, rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void>>>, rclcpp::Node, rclcpp::Node, nav_msgs::msg::Odometry_<std::allocator<void>>>' requested here
+[2.315s]   190 |   return rclcpp::detail::create_subscription<
+[2.315s]       |                          ^
+[2.315s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:99:18: note: in instantiation of function template specialization 'rclcpp::create_subscription<nav_msgs::msg::Odometry_<std::allocator<void>>, std::__bind<void (PoseController::*)(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void>>>), PoseController *, const std::placeholders::__ph<1> &>, std::allocator<void>, rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void>>>, rclcpp::Node>' requested here
+[2.315s]    99 |   return rclcpp::create_subscription<MessageT>(
+[2.315s]       |                  ^
+[2.315s] /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:20:27: note: in instantiation of function template specialization 'rclcpp::Node::create_subscription<nav_msgs::msg::Odometry_<std::allocator<void>>, std::__bind<void (PoseController::*)(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void>>>), PoseController *, const std::placeholders::__ph<1> &>, std::allocator<void>, rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void>>>>' requested here
+[2.315s]    20 |         odom_sub_ = this->create_subscription<nav_msgs::msg::Odometry>(
+[2.315s]       |                           ^
+[2.315s] /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:405:5: note: 'set_deprecated<nav_msgs::msg::Odometry_<std::allocator<void>>>' has been explicitly marked deprecated here
+[2.315s]   405 |   [[deprecated("use 'void(std::shared_ptr<const MessageT>)' instead")]]
+[2.315s]       |     ^
+[5.510s] 1 warning generated.
+[5.537s] [100%] Linking CXX executable pose_controller
+[5.629s] [100%] Built target pose_controller
+[5.641s] Invoked command in '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control' returned '0': CONDA_PROMPT_MODIFIER=(base) PIXI_PROMPT=(robostack:humble) SHLVL=3 _=/usr/bin/env /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/cmake --build /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control -- -j12 -l12
+[5.711s] Invoking command in '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control': CONDA_PROMPT_MODIFIER=(base) PIXI_PROMPT=(robostack:humble) SHLVL=3 _=/usr/bin/env /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/cmake --install /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control
+[5.721s] -- Install configuration: ""
+[5.721s] -- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/lib/limo_control/pose_controller
+[5.722s] -- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/launch
+[5.722s] -- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/launch/controller.launch.py
+[5.723s] -- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/package_run_dependencies/limo_control
+[5.723s] -- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/parent_prefix_path/limo_control
+[5.723s] -- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/ament_prefix_path.sh
+[5.724s] -- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/ament_prefix_path.dsv
+[5.724s] -- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/path.sh
+[5.724s] -- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/path.dsv
+[5.725s] -- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.bash
+[5.725s] -- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.sh
+[5.726s] -- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.zsh
+[5.726s] -- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.dsv
+[5.726s] -- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.dsv
+[5.727s] -- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/packages/limo_control
+[5.727s] -- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/cmake/limo_controlConfig.cmake
+[5.728s] -- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/cmake/limo_controlConfig-version.cmake
+[5.728s] -- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.xml
+[5.729s] Invoked command in '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control' returned '0': CONDA_PROMPT_MODIFIER=(base) PIXI_PROMPT=(robostack:humble) SHLVL=3 _=/usr/bin/env /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/cmake --install /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control

@@ -1,0 +1,33 @@
+In file included from /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:1:
+In file included from /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/rclcpp.hpp:155:
+In file included from /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/executors.hpp:21:
+In file included from /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25:
+In file included from /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/executor.hpp:37:
+In file included from /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/executor_options.hpp:20:
+In file included from /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18:
+In file included from /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25:
+In file included from /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/any_executable.hpp:20:
+In file included from /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/callback_group.hpp:29:
+In file included from /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/subscription_base.hpp:32:
+/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: warning: 'set_deprecated<nav_msgs::msg::Odometry_<std::allocator<void>>>' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations]
+  391 |       set_deprecated(static_cast<typename scbth::callback_type>(callback));
+      |       ^
+/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:29: note: in instantiation of function template specialization 'rclcpp::AnySubscriptionCallback<nav_msgs::msg::Odometry_<std::allocator<void>>>::set<std::__bind<void (PoseController::*)(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void>>>), PoseController *, const std::placeholders::__ph<1> &>>' requested here
+   94 |   any_subscription_callback.set(std::forward<CallbackT>(callback));
+      |                             ^
+/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:26: note: in instantiation of function template specialization 'rclcpp::create_subscription_factory<nav_msgs::msg::Odometry_<std::allocator<void>>, std::__bind<void (PoseController::*)(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void>>>), PoseController *, const std::placeholders::__ph<1> &>, std::allocator<void>, rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void>>>, nav_msgs::msg::Odometry_<std::allocator<void>>>' requested here
+  122 |   auto factory = rclcpp::create_subscription_factory<MessageT>(
+      |                          ^
+/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/create_subscription.hpp:190:26: note: in instantiation of function template specialization 'rclcpp::detail::create_subscription<nav_msgs::msg::Odometry_<std::allocator<void>>, std::__bind<void (PoseController::*)(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void>>>), PoseController *, const std::placeholders::__ph<1> &>, std::allocator<void>, rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void>>>, rclcpp::Node, rclcpp::Node, nav_msgs::msg::Odometry_<std::allocator<void>>>' requested here
+  190 |   return rclcpp::detail::create_subscription<
+      |                          ^
+/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/node_impl.hpp:99:18: note: in instantiation of function template specialization 'rclcpp::create_subscription<nav_msgs::msg::Odometry_<std::allocator<void>>, std::__bind<void (PoseController::*)(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void>>>), PoseController *, const std::placeholders::__ph<1> &>, std::allocator<void>, rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void>>>, rclcpp::Node>' requested here
+   99 |   return rclcpp::create_subscription<MessageT>(
+      |                  ^
+/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/workspace/limo_control/src/pose_controller.cpp:20:27: note: in instantiation of function template specialization 'rclcpp::Node::create_subscription<nav_msgs::msg::Odometry_<std::allocator<void>>, std::__bind<void (PoseController::*)(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void>>>), PoseController *, const std::placeholders::__ph<1> &>, std::allocator<void>, rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void>>>>' requested here
+   20 |         odom_sub_ = this->create_subscription<nav_msgs::msg::Odometry>(
+      |                           ^
+/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:405:5: note: 'set_deprecated<nav_msgs::msg::Odometry_<std::allocator<void>>>' has been explicitly marked deprecated here
+  405 |   [[deprecated("use 'void(std::shared_ptr<const MessageT>)' instead")]]
+      |     ^
+1 warning generated.

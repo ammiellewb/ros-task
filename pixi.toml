@@ -1,0 +1,30 @@
+[workspace]
+authors = ["Ammielle WB <61096548+ammiellewb@users.noreply.github.com>"]
+channels = ["robostack-staging", "conda-forge"]
+name = "ros-task"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+build = "colcon build --symlink-install"
+launch = "bash scripts/deploy/app.sh"
+
+[dependencies]
+python = "3.9"  # Explicit Python version
+ros-humble = "0.10.0"  # Pinned version
+gazebo = ">=11.15.1,<12"
+gz-sim8 = ">=8.6.0,<9"
+gz-launch7 = ">=7.1.0,<8"
+
+ros-humble-desktop-full = ">=0.10.0,<0.11"
+colcon-common-extensions = ">=0.3.0,<0.4"
+setuptools = "<=58.2.0"
+ros-humble-joint-state-publisher = ">=2.4.0,<3"
+ros-humble-xacro = ">=2.0.8,<3"
+ros-humble-ros-ign-bridge = ">=0.244.16,<0.245"
+ros-humble-ros-ign-gazebo = ">=0.244.16,<0.245"
+ros-humble-ros-ign-image = ">=0.244.16,<0.245"
+ros-humble-ros-ign-interfaces = ">=0.244.16,<0.245"
+ros-humble-slam-toolbox = ">=2.6.9,<3"
+ros-humble-nav2-bringup = ">=1.1.17,<2"
+ros-humble-navigation2 = ">=1.1.17,<2"

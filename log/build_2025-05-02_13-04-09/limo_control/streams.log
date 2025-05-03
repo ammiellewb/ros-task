@@ -1,0 +1,25 @@
+[0.023s] Invoking command in '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control': CONDA_PROMPT_MODIFIER=(base) PIXI_PROMPT=(robostack:humble) SHLVL=3 _=/usr/bin/env /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/cmake --build /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control -- -j12 -l12
+[0.315s] [100%] Built target pose_controller
+[0.328s] Invoked command in '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control' returned '0': CONDA_PROMPT_MODIFIER=(base) PIXI_PROMPT=(robostack:humble) SHLVL=3 _=/usr/bin/env /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/cmake --build /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control -- -j12 -l12
+[0.417s] Invoking command in '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control': CONDA_PROMPT_MODIFIER=(base) PIXI_PROMPT=(robostack:humble) SHLVL=3 _=/usr/bin/env /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/cmake --install /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control
+[0.429s] -- Install configuration: ""
+[0.429s] -- Up-to-date: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/lib/limo_control/pose_controller
+[0.429s] -- Up-to-date: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/launch
+[0.429s] -- Up-to-date: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/launch/limo_complete.launch.py
+[0.430s] -- Up-to-date: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/launch/controller.launch.py
+[0.430s] -- Up-to-date: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/package_run_dependencies/limo_control
+[0.430s] -- Up-to-date: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/parent_prefix_path/limo_control
+[0.430s] -- Up-to-date: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/ament_prefix_path.sh
+[0.430s] -- Up-to-date: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/ament_prefix_path.dsv
+[0.430s] -- Up-to-date: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/path.sh
+[0.430s] -- Up-to-date: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/path.dsv
+[0.430s] -- Up-to-date: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.bash
+[0.430s] -- Up-to-date: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.sh
+[0.430s] -- Up-to-date: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.zsh
+[0.430s] -- Up-to-date: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.dsv
+[0.430s] -- Installing: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.dsv
+[0.432s] -- Up-to-date: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/packages/limo_control
+[0.432s] -- Up-to-date: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/cmake/limo_controlConfig.cmake
+[0.432s] -- Up-to-date: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/cmake/limo_controlConfig-version.cmake
+[0.432s] -- Up-to-date: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.xml
+[0.433s] Invoked command in '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control' returned '0': CONDA_PROMPT_MODIFIER=(base) PIXI_PROMPT=(robostack:humble) SHLVL=3 _=/usr/bin/env /Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/bin/cmake --install /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_control

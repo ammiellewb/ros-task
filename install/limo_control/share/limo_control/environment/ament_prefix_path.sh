@@ -1,0 +1,1 @@
+/Users/ammiellewambobecker/CL2/robostack/.pixi/envs/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh

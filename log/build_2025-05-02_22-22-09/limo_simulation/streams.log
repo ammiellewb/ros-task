@@ -1,0 +1,32 @@
+[0.017s] Invoking command in '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_simulation': CMAKE_PREFIX_PATH=/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/.pixi/envs/default CONDA_PROMPT_MODIFIER=(base) PIXI_PROMPT=(ros-task) SHLVL=2 _=/usr/bin/env /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/.pixi/envs/default/bin/cmake --build /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_simulation -- -j12 -l12
+[0.191s] Invoked command in '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_simulation' returned '0': CMAKE_PREFIX_PATH=/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/.pixi/envs/default CONDA_PROMPT_MODIFIER=(base) PIXI_PROMPT=(ros-task) SHLVL=2 _=/usr/bin/env /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/.pixi/envs/default/bin/cmake --build /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_simulation -- -j12 -l12
+[0.261s] Invoking command in '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_simulation': CMAKE_PREFIX_PATH=/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/.pixi/envs/default CONDA_PROMPT_MODIFIER=(base) PIXI_PROMPT=(ros-task) SHLVL=2 _=/usr/bin/env /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/.pixi/envs/default/bin/cmake --install /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_simulation
+[0.274s] -- Install configuration: ""
+[0.275s] -- Execute custom install script
+[0.275s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/launch/limo.launch.py
+[0.276s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/meshes/limo_base.dae
+[0.276s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/meshes/limo_base.stl
+[0.276s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/meshes/limo_base_decimated.dae
+[0.276s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/meshes/limo_wheel.dae
+[0.276s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/meshes/limo_wheel.stl
+[0.276s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/urdf/limo_four_diff.gazebo
+[0.276s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/urdf/limo_four_diff.xacro
+[0.276s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/urdf/limo_xacro.xacro
+[0.277s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/worlds/empty.sdf
+[0.277s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/ament_index/resource_index/package_run_dependencies/limo_simulation
+[0.277s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/ament_index/resource_index/parent_prefix_path/limo_simulation
+[0.277s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/environment/ament_prefix_path.sh
+[0.277s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/environment/ament_prefix_path.dsv
+[0.278s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/environment/path.sh
+[0.278s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/environment/path.dsv
+[0.278s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/local_setup.bash
+[0.278s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/local_setup.sh
+[0.278s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/local_setup.zsh
+[0.278s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/local_setup.dsv
+[0.278s] -- Symlinking: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/package.dsv
+[0.290s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/ament_index/resource_index/packages/limo_simulation
+[0.290s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.291s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/cmake/limo_simulationConfig.cmake
+[0.291s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/cmake/limo_simulationConfig-version.cmake
+[0.291s] -- Up-to-date symlink: /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/package.xml
+[0.292s] Invoked command in '/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_simulation' returned '0': CMAKE_PREFIX_PATH=/Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/.pixi/envs/default CONDA_PROMPT_MODIFIER=(base) PIXI_PROMPT=(ros-task) SHLVL=2 _=/usr/bin/env /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/.pixi/envs/default/bin/cmake --install /Users/ammiellewambobecker/CL2/robostack/ros2_ws/src/ros-task/build/limo_simulation
